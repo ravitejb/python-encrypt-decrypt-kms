@@ -1,6 +1,6 @@
 # Encryption-Decryption
 
-[![Build Status][travis-badge]][travis]  [![codecov][codecov-badge][codecov]
+[![Build Status][travis-badge]][travis]  [![codecov][codecov-badge]][codecov]
 
 [travis-badge]: https://travis-ci.com/ravitejb/python-encrypt-decrypt-kms.svg?branch=master
 [travis]: https://travis-ci.com/ravitejb/python-encrypt-decrypt-kms
