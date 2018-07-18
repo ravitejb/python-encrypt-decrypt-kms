@@ -9,4 +9,4 @@ install:
 script:
   - python3 -m coverage run test_encrypt.py
 after_success:
-  - codecov
+  - bash <(curl -s https://codecov.io/bash)
