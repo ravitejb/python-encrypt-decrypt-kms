@@ -3,7 +3,9 @@ import shutil, tempfile
 import os
 import unittest
 from Crypto import Random
-from .. import encryptor_decryptor
+import sys
+sys.path.append('..')
+import encryptor_decryptor
 
 
 class TestEncryptFile(unittest.TestCase):
