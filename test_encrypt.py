@@ -33,6 +33,7 @@ class TestEncryptFile(unittest.TestCase):
         f = open(os.path.join(self.test_dir, 'test.txt'))
         self.assertEqual(f.read(), 'This is a test file to test the encryption and decryption')
         self.assertNotEqual(f.read(), 'some random data for not equal case')
+        f.close()
 
 
 if __name__ == '__main__':
