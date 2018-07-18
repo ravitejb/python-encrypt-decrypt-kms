@@ -2,8 +2,8 @@
 
 [![Build Status][travis-badge]][travis]
 
-[travis-badge]: https://travis-ci.com/ravitejb/python-encrypter-decrypter.svg?branch=master
-[travis]: https://travis-ci.com/ravitejb/python-encrypter-decrypter
+[travis-badge]: https://travis-ci.com/ravitejb/python-encrypt-decrypt-kms.svg?branch=master
+[travis]: https://travis-ci.com/ravitejb/python-encrypt-decrypt-kms
 
 This repo contains the python tool to encrypt and decrypt large files by using [pycrypto](http://pythonhosted.org/pycrypto/) library and integrates with GOOGLE CLOUD KMS to encrypt tht DEK(Data Encryption Key) which there by provides a two layer security for the file
 
