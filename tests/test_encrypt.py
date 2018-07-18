@@ -3,7 +3,7 @@ import shutil, tempfile
 import os
 import unittest
 from Crypto import Random
-import encryptor_decryptor
+from .. import encryptor_decryptor
 
 
 class TestEncryptFile(unittest.TestCase):
