@@ -1,3 +1,6 @@
 # cache files
 __pycache__
 .idea
+.coverage
+coverage.xml
+
